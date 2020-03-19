@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"christian-kohler.path-intellisense",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"msjsdiag.debugger-for-chrome",
+		"pkief.material-icon-theme",
+		"ritwickdey.liveserver",
+	],
+
+	"unwantedRecommendations": []
+}
