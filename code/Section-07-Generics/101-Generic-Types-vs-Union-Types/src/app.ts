@@ -1,6 +1,12 @@
-// Using a union type does not accomplish our goal here and leads to TypeScript // compilation errors. With generic types we could at instantiation fix the object to either hold data of type string, number or boolean and we could freely add and remove items. But with Union types we are left in a state where we can add a mixture of strings, numbers and booleans.
-// Generic types lock in a type so that you must call functions and methods with the same type on every call after instantiation
-// Union types are flexible so that you can call functions and methods with different types on every call
+// Using a union type does not accomplish our goal here and leads to TypeScript
+// compilation errors. With generic types we could at instantiation fix the object to 
+// either hold data of type string, number or boolean and we could freely add and 
+// remove items. But with Union types we are left in a state where we can add a 
+// mixture of strings, numbers and booleans.
+// Generic types lock in a type so that you must call functions and methods with the
+// same type on every call after instantiation.
+// Union types are flexible so that you can call functions and methods with different 
+// types on every call.
 class DataStorage {
     private data: string[] | number[] | boolean[] = [];
 
