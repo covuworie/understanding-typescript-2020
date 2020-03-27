@@ -1,4 +1,6 @@
-// Decorator Factory allows us to now pass in parameters that will be used by the decorator function (the inner function). Note that the factory returns the decorator function and now we must invoke the factory below.
+// Decorator Factory allows us to now pass in parameters that will be used by the 
+// decorator function (the inner function). Note that the factory returns the 
+// decorator function and now we must invoke the factory below.
 function Logger(logString: string) {
     return function(constructor: Function) {
         console.log(logString);

@@ -12,7 +12,9 @@ class Person {
     }
 }
 
-// The decorator runs when the TypeScript compiler finds the function definition in the class and not as instantiation time. For instance if we comment out the code below we still see the decorator output!
+// The decorator runs when the TypeScript compiler finds the function definition in 
+// the class and not as instantiation time. For instance if we comment out the code
+// below we still see the decorator output!
 const person = new Person();
 
 console.log(person);
