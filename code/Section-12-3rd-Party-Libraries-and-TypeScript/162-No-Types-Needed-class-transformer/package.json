@@ -1,0 +1,32 @@
+{
+  "name": "understanding-typescript-2020",
+  "version": "1.0.0",
+  "description": "Understanding Typescript - 2020 Edition - Udemy Course",
+  "main": "app.js",
+  "dependencies": {
+    "class-transformer": "^0.2.3",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/covuworie/understanding-typescript-2020.git"
+  },
+  "author": "covuworie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/covuworie/understanding-typescript-2020/issues"
+  },
+  "homepage": "https://github.com/covuworie/understanding-typescript-2020#readme"
+}
