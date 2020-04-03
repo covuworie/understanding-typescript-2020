@@ -1,5 +1,9 @@
+// It is not explained in the video that we need to set "moduleResolution": "node" in
+// the tsconfig.json for the module to be found: 
+// https://stackoverflow.com/questions/43704619/ts2307-cannot-find-module-class-validator
+
 import 'reflect-metadata';
-//import { plainToClass } from 'class-transformer';
+import { plainToClass } from 'class-transformer';
 
 import { Product } from "./product.model"
 
@@ -10,15 +14,12 @@ const products = [
 ];
 
 // This is how we would manually do the deserialization
-const loadedProducts = products.map(prod => {
-  return new Product(prod.title, prod.price);
-});
+// const loadedProducts = products.map(prod => {
+//   return new Product(prod.title, prod.price);
+// });
 
 // using class-transformer
-// I followed the instructions exactly as in the video and still get the error
-// message on the import above that "class-transformer" cannot be found even
-// though it is installed in the node_modules directory: weird!!!
-//const loadedProducts = plainToClass(Product, products);
+const loadedProducts = plainToClass(Product, products);
 
 for (const product of loadedProducts) {
   console.log(product.getInformation());
