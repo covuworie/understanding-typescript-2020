@@ -1,7 +1,7 @@
 // 1. We can't send a request with the browser so download and install postman
 //    (https://www.postman.com/).
 // 2. Create a new request with postman:
-//    a) Set the request type to "POST".
+//    a) Set the request type to "POST" and enter the endpoint http://localhost:3000/todos/..
 //    b) Set the body type as "raw" and the text type as "JSON".
 //    c) Enter the text body as:
 //       {
