@@ -106,3 +106,5 @@ typings/
 # Javascript files
 *.js
 *.js.map
+!webpack.config.js
+!webpack.config.prod.js
