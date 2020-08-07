@@ -4,7 +4,7 @@
   "description": "Understanding Typescript - 2020 Edition - Udemy Course",
   "main": "app.js",
   "dependencies": {
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
