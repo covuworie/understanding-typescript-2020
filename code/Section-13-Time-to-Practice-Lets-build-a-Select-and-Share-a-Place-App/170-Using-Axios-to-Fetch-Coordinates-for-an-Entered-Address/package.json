@@ -4,7 +4,7 @@
   "description": "Understanding Typescript - 2020 Edition - Udemy Course",
   "main": "app.js",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "ts-loader": "^6.2.2",
