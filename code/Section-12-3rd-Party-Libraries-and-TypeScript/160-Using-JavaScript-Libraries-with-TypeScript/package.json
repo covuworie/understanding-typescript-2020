@@ -4,7 +4,7 @@
   "description": "Understanding Typescript - 2020 Edition - Udemy Course",
   "main": "app.js",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.149",
